@@ -90,7 +90,9 @@ DistilBERT uses its own tokenizer on the raw text (`max_length=64`).
 | surprise | 0.675 | 0.771 | 0.720 | 533 |
 | disgust | 0.490 | 0.610 | 0.543 | 77 |
 
-![DistilBERT confusion matrix](images/confusion_matrix_distilbert.png)
+## DistilBERT confusion matrix
+<img width="509" height="470" alt="confusion_matrix_distilbert" src="https://github.com/user-attachments/assets/fcae4625-37c6-45c2-8f19-6bb33a49db5e" />
+
 
 ### Discussion
 
@@ -116,7 +118,9 @@ Attention weights of the BiLSTM + Attention model show which tokens drive each p
 | I **miss** her so much, I feel so empty and alone | sadness (99%) | `miss` (0.71) |
 | **Wow**, I did not expect that at all! What a **surprise**! | surprise (96%) | `wow` (0.46), `surprise` (0.37) |
 
-![Attention heatmap](images/attention_heatmaps.png)
+## Attention heatmap
+<img width="1037" height="1048" alt="attention_heatmaps" src="https://github.com/user-attachments/assets/1c162eee-463d-41b0-b10a-220ff53a9ce5" />
+
 
 Words with the highest average attention per class (on correctly classified test comments):
 
@@ -149,7 +153,12 @@ Then open <http://127.0.0.1:7860>. The model weights (~268 MB) are downloaded au
 HuggingFace Hub on first run. Type a sentence to get the dominant emotion and a bar chart of the
 confidence for all 6 classes.
 
-![App screenshot](images/app_screenshot.png)
+## App screenshot
+<img width="907" height="901" alt="image" src="https://github.com/user-attachments/assets/8b01847a-467e-430f-829a-2184c7d2ad5b" />
+<img width="910" height="882" alt="image" src="https://github.com/user-attachments/assets/98983603-ba8f-421a-9dc0-af38f6cdebf8" />
+
+
+
 
 ## 7. Repository structure
 
@@ -177,4 +186,4 @@ scikit-learn, GloVe (gensim), Gradio, matplotlib / seaborn.
 
 ## Author
 
-*Your name here*
+*Eng /MAi Reda*
